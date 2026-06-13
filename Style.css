@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.logo h2{
+    color: orangered;
+}
+
+.logo span{
+    color: black;
+}
+
+ion-icon{
+    font-size: 26px;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.4s;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+
+.hero{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+}
+
+.heroleft{
+    /*background-color: aquamarine;*/
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heroleft span{
+    color: orange;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.heroleft button{
+    background-color: orange;
+    border: none;
+    padding: 16px;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.heroright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroright{
+    margin-left: 50px;
+    width: 250px;
+    height: 300px;
+    border: 6px solid orange;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    color: orange;
+    border-bottom: 3px solid orange;
+    width: fit-content;
+    margin: 16px auto;;
+    padding: 8px;
+}
+
+h2{
+    text-align: center;
+}
+
+.card-wrapper{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid blanchedalmond;
+    margin: 10px 0;
+}
+
+.card{
+    background-color: bisque;  
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h4{
+    margin: 20px 0;
+}
+
+.card p{
+    margin-top: 40px;
+}
+
+.hero1{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.heroleft1{
+    margin-left: 50px;
+    width: 250px;
+    height: 300px;
+    border: 6px solid orange;
+    border-radius: 40%;
+    overflow: hidden;
+    flex-basis: 35%;
+}
+
+.heroleft1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroright1{
+    background-color: white;
+    width: 100px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 65%;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    width: 400px;
+    margin: 20px;
+    padding: 6px;
+    align-items: center;
+    gap: 10px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.status h4{
+    color: orange;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 9px;
+    font-weight: 1000;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.navigation a:hover{
+    background-color: coral;
+}
+
+.food-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.food-card{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    padding: 9px;
+}
+
+.food-card:hover{
+    background-color: burlywood;
+}
+
+.food-card h5{
+    margin-top: 15px;
+}
+
+.food-card img{
+    width: 70%;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.email{
+    background-color: white;
+    height: 60px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.email input{
+    height: 100%;
+    border-radius: 20px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+.email button{
+    height: 100%;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    width: 30%;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
